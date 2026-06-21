@@ -29,7 +29,7 @@ A low-budget, 6-wheel autonomous rover that drives itself through rough terrain,
 |---|---|
 | Chassis | Aluminum 2020 extrusion + PLA/PETG 3D-printed joints |
 | Mobility | 6× DC motors, BTS7960 drivers, TPU wheels |
-| Brain | Raspberry Pi 4 + Arduino R4 + ROS 2 |
+| Brain | Raspberry Pi 4 + Arduino R4 |
 | Vision | WIP |
 | Navigation | WIP |
 | Sampling arm | WIP |
