@@ -29,7 +29,7 @@ A low-budget, 6-wheel autonomous rover that drives itself through rough terrain,
 
 | Spec | Value |
 |---|---|
-| Chassis body | 600 × 1200 mm |
+| Chassis body | ------ |
 | Wheelbase | 1000 mm |
 | Wheel diameter | 200 mm |
 | Top speed | ~150 mm/s |
@@ -64,18 +64,7 @@ Just the drive/suspension parts for now — the rest is still WIP.
 
 | # | Part | Qty | Notes |
 |---|---|---|---|
-| 1 | Aluminum round tube Ø25×2 mm | ~1.6 m | Rocker arms |
-| 2 | Aluminum round tube Ø20×2 mm | ~0.9 m | Bogie arms |
-| 3 | Steel rod Ø12 × 600 mm | 1 | Differential axle |
-| 4 | Steel pin Ø |  |  | Pivots (2 rocker + 2 bogie + 6 wheel + 1 spare) |
-| 5 | gearmotor | 6 | ~100 rpm, 12 V |
-| 6 | BTS7960 motor driver | 3 | One per 2 motors |
-| 7 | MG995 servo | 4 | Corner-wheel steering |
-| 8 | Bolt M5×20 + nylock | ~40 | Tube-to-joint |
-| 9 | Bolt M4×16 | ~16 | Bearing blocks to chassis |
-| 10 | Bolt M3×20 + nylock | ~36 | Rim halves |
-| 11 | Raspberry Pi 4 (4 GB) | 1 | Brain |
-| 12 | Arduino R4 | 1 | Low-level motor/servo control |
+
 
 
 ---
