@@ -1,0 +1,35 @@
+Categoria,Parte,Cantidad
+Movilidad,Motorreductor JGB37 12V 50RPM (40 kg.cm),6
+Movilidad,Driver BTS7960 43A,2
+Movilidad,Servo MG996R,4
+Movilidad,Controlador PCA9685 (16 ch PWM),1
+Movilidad,Tubo redondo aluminio D25x2 mm,1.6 m
+Movilidad,Tubo redondo aluminio D20x2 mm,0.9 m
+Movilidad,Barra de acero D12x700 mm (eje diferencial),1
+Movilidad,Pasadores acero D12x40 mm,11
+Movilidad,Perfil aluminio 2020,3 m
+Movilidad,Terminales de rotula M5 (bieletas),4
+Movilidad,Varilla roscada M5 (bieletas),0.5 m
+Cerebro y control,Raspberry Pi 4 (4 GB),1
+Cerebro y control,Arduino R4,1
+Cerebro y control,Tarjeta microSD 32 GB,1
+Cerebro y control,Regulador DC-DC (12V a 5V),1
+Energia,Bateria LiPo 12V 8000-10000 mAh,1
+Energia,Cargador LiPo,1
+Energia,Interruptor + cableado + fusibles,1
+Laboratorio,Sensor de color RGB TCS34725,1
+Laboratorio,Bomba peristaltica,2
+Laboratorio,Dispensador de jeringa / servo lineal,1
+Laboratorio,Reactivos Biuret (CuSO4 + NaOH),1
+Laboratorio,Contenedor sellado de muestras,1
+Geologia,Sensor capacitivo de humedad de suelo,1
+Brazo de muestreo,Servos para el brazo (MG996R o similar),4
+Brazo de muestreo,Pala/scoop para suelo,1
+Brazo de muestreo,Estructura del brazo (impreso PETG),1
+Vision y navegacion,Camara (Pi Camera o USB),1
+Vision y navegacion,Marcadores AR (impresos),1
+Impresion 3D,Filamento PETG (g),600
+Impresion 3D,Filamento TPU 95A (g),250
+Tornilleria,Perno M5x20 + tuerca nylock,40
+Tornilleria,Perno M4x16,16
+Tornilleria,Perno M3x20 + nylock,36
