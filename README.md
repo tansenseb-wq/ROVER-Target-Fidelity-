@@ -29,7 +29,7 @@ A low-budget, 6-wheel autonomous rover that drives itself through rough terrain,
 
 | Spec | Value |
 |---|---|
-| Chassis body | 600 × 1200 mm |
+| Chassis body | ------ |
 | Wheelbase | 1000 mm |
 | Wheel diameter | 200 mm |
 | Top speed | ~150 mm/s |
@@ -64,35 +64,14 @@ Just the drive/suspension parts for now — the rest is still WIP.
 
 | # | Part | Qty | Notes |
 |---|---|---|---|
-| 1 | Aluminum round tube Ø25×2 mm | ~1.6 m | Rocker arms |
-| 2 | Aluminum round tube Ø20×2 mm | ~0.9 m | Bogie arms |
-| 3 | Steel rod Ø12 × 600 mm | 1 | Differential axle |
-| 4 | Steel pin Ø |  |  | Pivots (2 rocker + 2 bogie + 6 wheel + 1 spare) |
-| 5 | gearmotor | 6 | ~100 rpm, 12 V |
-| 6 | BTS7960 motor driver | 3 | One per 2 motors |
-| 7 | MG995 servo | 4 | Corner-wheel steering |
-| 8 | Bolt M5×20 + nylock | ~40 | Tube-to-joint |
-| 9 | Bolt M4×16 | ~16 | Bearing blocks to chassis |
-| 10 | Bolt M3×20 + nylock | ~36 | Rim halves |
-| 11 | Raspberry Pi 4 (4 GB) | 1 | Brain |
-| 12 | Arduino R4 | 1 | Low-level motor/servo control |
+
 
 
 ---
 
 ## Printed parts — quick guide
 
-All printed in **PETG** unless noted. General settings: **4–5 perimeters, 50–60% infill, 0.2 mm layer**. PETG over PLA because it survives heat, sun and impacts way better.
 
-| Part | Qty | Material | Print notes |
-|---|---|---|---|
-| **Joint A** (rocker apex) | 2 | PETG | Sockets at **160°**. Print socket-up, no supports. Holds Ø25 tubes. |
-| **Joint B** (bogie pivot) | 2 | PETG | Sockets at **150°** (V shape). Socket-up, no supports. Holds Ø20 tubes. |
-| **Bearing block** (chassis) | 2 | PETG | Clamps the Ø12 axle to the 2020 frame. Fits a printed bushing or 608ZZ. |
-| **Wheel mount — C** | 4 | PETG | Corner wheels. Holds the MG995 servo on top for steering. Socket angled to keep wheel vertical. |
-| **Wheel mount — L** | 2 | PETG | Middle wheels. Fixed, no servo. Same 90 mm height as the C mounts so all wheels sit level. |
-| **Rim half** | 12 | PETG | 2 halves per wheel. Print partition-face down, no supports. Joined with 6× M3. |
-| **Tire** | 6 | TPU 95A | One piece, casing + chevron lugs. Slow print (20–30 mm/s) for elasticity. |
 
 ### A couple of things worth knowing before printing
 
