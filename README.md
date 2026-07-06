@@ -109,4 +109,8 @@ Just the drive/suspension parts for now — the rest is still WIP.
 
 ## Credits
 
-- Suspension design heavily inspired by [NASA JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover) — seriously, read their docs, they're great
+- Suspension design heavily inspired by [NASA JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover) 
+
+![Rover dev 2 — isometric view](docs/img/rover_dev2_1.png)
+
+![Rover dev 2 — front view showing the differential](docs/img/rover_dev2_front.png)

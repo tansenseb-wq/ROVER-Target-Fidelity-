@@ -1,35 +1,42 @@
-Categoria,Parte,Cantidad
-Movilidad,Motorreductor JGB37 12V 50RPM (40 kg.cm),6
-Movilidad,Driver BTS7960 43A,2
-Movilidad,Servo MG996R,4
-Movilidad,Controlador PCA9685 (16 ch PWM),1
-Movilidad,Tubo redondo aluminio D25x2 mm,1.6 m
-Movilidad,Tubo redondo aluminio D20x2 mm,0.9 m
-Movilidad,Barra de acero D12x700 mm (eje diferencial),1
-Movilidad,Pasadores acero D12x40 mm,11
-Movilidad,Perfil aluminio 2020,3 m
-Movilidad,Terminales de rotula M5 (bieletas),4
-Movilidad,Varilla roscada M5 (bieletas),0.5 m
-Cerebro y control,Raspberry Pi 4 (4 GB),1
-Cerebro y control,Arduino R4,1
-Cerebro y control,Tarjeta microSD 32 GB,1
-Cerebro y control,Regulador DC-DC (12V a 5V),1
-Energia,Bateria LiPo 12V 8000-10000 mAh,1
-Energia,Cargador LiPo,1
-Energia,Interruptor + cableado + fusibles,1
-Laboratorio,Sensor de color RGB TCS34725,1
-Laboratorio,Bomba peristaltica,2
-Laboratorio,Dispensador de jeringa / servo lineal,1
-Laboratorio,Reactivos Biuret (CuSO4 + NaOH),1
-Laboratorio,Contenedor sellado de muestras,1
-Geologia,Sensor capacitivo de humedad de suelo,1
-Brazo de muestreo,Servos para el brazo (MG996R o similar),4
-Brazo de muestreo,Pala/scoop para suelo,1
-Brazo de muestreo,Estructura del brazo (impreso PETG),1
-Vision y navegacion,Camara (Pi Camera o USB),1
-Vision y navegacion,Marcadores AR (impresos),1
-Impresion 3D,Filamento PETG (g),600
-Impresion 3D,Filamento TPU 95A (g),250
-Tornilleria,Perno M5x20 + tuerca nylock,40
-Tornilleria,Perno M4x16,16
-Tornilleria,Perno M3x20 + nylock,36
+﻿Categoria;Parte;Cantidad;PrecioUnitario_COP;Subtotal_COP;Fuente;Estado
+Movilidad;Motorreductor JGB37 12V 50RPM (40 kg.cm);6;87600;525600;I+D Didacticas Electronicas;Fijo
+Movilidad;Driver BTS7960 43A;2;25000;50000;I+D Didacticas Electronicas;Fijo
+Movilidad;Servo MG996R;4;26000;104000;Bigtronica;Fijo
+Movilidad;Controlador PCA9685 (16 ch PWM);1;20000;20000;I+D Didacticas Electronicas;Fijo
+Movilidad;Tubo redondo aluminio D25x2 mm (por m);2;18000;36000;El Palacio del Aluminio;Fijo
+Movilidad;Tubo redondo aluminio D20x2 mm (por m);1;15000;15000;El Palacio del Aluminio;Fijo
+Movilidad;Barra de acero D12x700 mm (eje diferencial);1;12000;12000;Deposito de aceros (Medellin);Fijo
+Movilidad;Pasadores acero D12x40 mm;11;2000;22000;Deposito de aceros (Medellin);Fijo
+Movilidad;Terminales de rotula M5 (bieletas);4;6000;24000;Tienda RC / hobby;Fijo
+Movilidad;Varilla roscada M5 (bieletas) 0.5 m;1;5000;5000;Ferreteria;Fijo
+Chasis;Perfil aluminio 2020 (por m);3;22000;66000;Electronilab;Fijo
+Chasis;Tuercas en T + conectores esquina 2020;30;800;24000;Electronilab;Fijo
+Chasis;Lamina acrilico/MDF para cubierta;1;55000;55000;Vidrieria / ferreteria (Medellin);Fijo
+Chasis;Perno M5x20 + tuerca nylock;40;400;16000;Ferreteria;Fijo
+Chasis;Perno M4x16;16;300;4800;Ferreteria;Fijo
+Chasis;Perno M3x20 + nylock;36;300;10800;Ferreteria;Fijo
+Impresion 3D;Filamento PETG (g);1600;N/A;144000;I+D / online (~90k/kg);Fijo
+Impresion 3D;Filamento TPU 95A (g);800;N/A;104000;I+D / online (~130k/kg);Fijo
+Cerebro y control;Raspberry Pi 4 (4 GB);1;320000;320000;Microkits Electronica (Medellin);Fijo
+Cerebro y control;Arduino R4;1;120000;120000;I+D Didacticas Electronicas;Fijo
+Cerebro y control;Tarjeta microSD 32 GB;1;30000;30000;Microkits Electronica (Medellin);Fijo
+Cerebro y control;Regulador DC-DC (12V a 5V);1;15000;15000;I+D Didacticas Electronicas;Fijo
+Energia;Bateria LiPo 12V 8000-10000 mAh;1;290000;290000;Bigtronica/hobbyst;Fijo
+Energia;Cargador LiPo;1;90000;90000;Bigtronica;Fijo
+Energia;Interruptor + cableado + fusibles;1;25000;25000;Ferreteria / I+D;Fijo
+Laboratorio;Sensor de color RGB TCS34725;1;25000;25000;I+D Didacticas Electronicas;WIP / puede cambiar
+Laboratorio;Bomba peristaltica;2;40000;80000;Microkits Electronica (Medellin);WIP / puede cambiar
+Laboratorio;Dispensador de jeringa / servo lineal;1;30000;30000;Bigtronica;WIP / puede cambiar
+Laboratorio;Reactivos Biuret (CuSO4 + NaOH);1;35000;35000;Distribuidora quimica (Medellin);WIP / puede cambiar
+Laboratorio;Contenedor sellado de muestras;1;10000;10000;Impreso / ferreteria;WIP / puede cambiar
+Geologia;Sensor capacitivo de humedad de suelo;1;12000;12000;I+D Didacticas Electronicas;WIP / puede cambiar
+Brazo de muestreo;Servos para el brazo ;4;26000;104000;Bigtronica;Fijo
+Brazo de muestreo;Pala/scoop para suelo;1;8000;8000;Impreso PETG;WIP / puede cambiar
+Brazo de muestreo;Estructura del brazo (impreso PETG);1;25000;25000;Impreso PETG;Fijo
+Vision y navegacion;Camara (Pi Camera o USB);1;50000;50000;Compel Electronica (Medellin);WIP / puede cambiar
+Vision y navegacion;Marcadores AR (impresos);1;2000;2000;Impresion papel;WIP / puede cambiar
+Tornilleria;Perno M5x20 + tuerca nylock (extra);40;400;16000;Ferreteria;WIP / puede cambiar
+Tornilleria;Perno M4x16 (extra);16;300;4800;Ferreteria;WIP / puede cambiar
+Tornilleria;Perno M3x20 + nylock (extra);36;300;10800;Ferreteria;WIP / puede cambiar
+;;;;;;
+;;;;;;
