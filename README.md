@@ -4,7 +4,9 @@ A low-budget, 6-wheel autonomous rover that drives itself through rough terrain,
 
 ---
 
-> *[GIF coming soon — first field test]*
+![Steering geometry in motion — one wheel-corner assembly sweeping through its steering range](docs/img/ensamble_llanta_steering.gif)
+
+*The steering knuckle (servo + printed bearing + wheel) swinging through its range in Fusion — see [Wheel-corner assembly](#wheel-corner-assembly) below. Full field-test GIF still coming.*
 
 ---
 
@@ -48,51 +50,36 @@ A low-budget, 6-wheel autonomous rover that drives itself through rough terrain,
 | Subsystem | Key components |
 |---|---|
 | Chassis | Aluminum 2020 extrusion + PLA/PETG 3D-printed joints |
-| Mobility | 6× JGB37 DC motors, BTS7960 drivers, TPU wheels |
+| Mobility | 6× JGB37 DC motors, BTS7960 drivers, TPU wheels, 2× 448 CPR optical encoders |
 | Differential | Balancín + 2 bieletas with ball-joint ends |
-| Steering | 4× MG996R servos + PCA9685 |
-| Brain | Raspberry Pi 4 + Arduino R4 |
+| Steering | 4× MG995R servos + PCA9685, printed-bearing knuckle (see below) |
+| Brain | Arduino UNO Q (Linux Cortex-A53 + realtime Cortex-M33, one board) |
 | Vision | WIP |
 | Navigation | WIP |
-| Sampling arm | WIP |
+| Sampling arm | 4× SG51R mini servos, WIP structure |
 | Lab | TCS34725 color sensor, peristaltic pump, syringe dispenser |
 | Geology | Capacitive soil moisture sensor |
 
 ---
 
-## Bill of Materials (mobility system)
+## Wheel-corner assembly
 
-Just the drive/suspension parts for now — the rest is still WIP.
+Each steering wheel (front-left/right, rear-left/right) is a servo, a printed knuckle, a coupler, and the wheel itself, all validated as a standalone assembly (`Ensamble llanta` / `Ensamble llanta Largo`) before going into the full rover.
 
-### Hardware
+- **Geometry adapted from a proven reference** — the servo coupler, servo horn, and wheel-joint pieces come from the "Mars Rover Perseverance Replica" build rather than being designed from scratch. The 37 mm gearmotor (6 mm D-shaft, 31 mm bolt circle) drops straight into the reference's wheel-joint cavity with no scaling.
+- **Printed bearing, not a bought one** — the knuckle carries a print-in-place ball bearing (OpenSCAD + BOSL2, "635" size: ID5/OD19/W6mm, dumbbell rollers) instead of a purchased bearing.
+- **Socket angle comes from the live model** — the socket tilts so the servo's steering axis is exactly vertical despite sitting on an angled rocker/bogie arm: **30°** at the front/rocker corner, **10°** at the rear/bogie corner, both measured from the actual Fusion assembly rather than assumed.
+- **Mirrored for both sides** — all three knuckle variants (`JuntaLlanta`, `JuntaLlantaEstatica`, `JuntaLlantaDireccion`) have mirrored left-side counterparts (`...I` suffix) so the 6-wheel layout is symmetric.
 
-| # | Part | Qty | Notes |
-|---|---|---|---|
-| 1 | JGB37 12V 50RPM gearmotor (40 kg·cm) | 6 | drive motors — confirm encoder version for SLAM |
-| 2 | BTS7960 43A motor driver | 2 | one per side, 3 motors paralleled each |
-| 3 | MG996R servo | 4 | corner-wheel steering |
-| 4 | PCA9685 16-ch PWM driver | 1 | drives the steering servos over I2C |
-| 5 | Aluminum round tube Ø25×2 mm | ~1.6 m | rocker arms |
-| 6 | Aluminum round tube Ø20×2 mm | ~0.9 m | bogie arms |
-| 7 | Steel rod Ø12 × 700 mm | 1 | differential axle (600 in chassis + 50 each boss) |
-| 8 | Steel pin Ø12 × 40 mm | 11 | pivots (2 rocker + 2 bogie + 6 wheel + 1 spare) |
-| 9 | Aluminum 2020 extrusion | ~3 m | chassis frame |
-| 10 | T-nuts + corner brackets (2020) | ~30 | frame + panel assembly |
-| 11 | Rod-end ball joints (M5) | 4 | bieleta ends — both ends of each rod |
-| 12 | Threaded rod M5 (bieletas) | ~0.5 m | cut to ~253 mm each |
-| 13 | Bolt M5×20 + nylock | ~40 | tube-to-joint, clamps |
-| 14 | Bolt M4×16 | ~16 | bearing blocks to chassis |
-| 15 | Bolt M3×20 + nylock | ~36 | rim halves |
-| 16 | LiPo battery 12V 8–10 Ah | 1 | handles ~26 A climbing peaks |
-| 17 | Raspberry Pi 4 (4 GB) | 1 | high-level brain |
-| 18 | Arduino R4 | 1 | motor/servo/encoder low-level control |
+---
 
-### Filament
+## Bill of Materials
 
-| Material | Approx. use | For |
-|---|---|---|
-| PETG | ~600 g | joints, wheel mounts, rims, bearing blocks, balancín, clamps |
-| TPU 95A | ~250 g | tires |
+The full, current BOM (every subsystem, quantities, real prices, and purchase status) lives in [`BOM/bom_rover.csv`](BOM/bom_rover.csv) — that CSV is the source of truth, this section is just the highlights.
+
+**Comprado** (bought — real order [Pedido S174842](https://www.didacticaselectronicas.com), I+D Didácticas Electrónicas, COP $2,216,852 with IVA): all 6 JGB37 motors + 3 BTS7960 drivers + steering/arm servos + PCA9685, 13 m of 2020 aluminum profile + T-nuts, PETG/TPU filament, the Arduino UNO Q brain, 2× 448 CPR optical encoders, plus assorted cabling and small hardware.
+
+**Pendiente** (still to buy): round aluminum tube + steel axle for the differential, the acrylic/MDF lid, the LiPo battery + charger, and the lab-module hardware (color sensor, pumps, syringe dispenser).
 
 ---
 
@@ -104,6 +91,14 @@ Just the drive/suspension parts for now — the rest is still WIP.
 - **All three wheel mounts share the same 90 mm drop** (socket to wheel center). That's what keeps the three wheels level on the ground — don't change it on just one.
 - **The differential bieletas need ball joints on both ends** — a rigid connection binds the linkage. The 1:1 ratio (balancín arm = clamp offset = 180 mm) is what keeps the leveling symmetric.
 - **Joint walls are 5 mm** — don't go thinner or the M5 bolts pull out of the PETG under load.
+
+Print-ready STL files for every finished functional part live in [`Parts/STL-parts`](Parts/STL-parts), organized by subsystem (`Bogie`, `Direccion`, `Llantas`) rather than by print settings — CAD source stays in Fusion, this folder is just the slicer-ready output.
+
+---
+
+## Build journal
+
+The full design log — why rocker-bogie, the math behind the geometry, dead ends, and every decision along the way — is in [`Journal/Librito_Rover x_x (CreacionSistemaMecanico) .pptx`](<Journal/Librito_Rover x_x (CreacionSistemaMecanico) .pptx>). It's a running notebook, not a polished report; open it in PowerPoint/Slides to read or add to it.
 
 ---
 
