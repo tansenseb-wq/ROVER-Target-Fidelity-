@@ -24,7 +24,7 @@ Impresion 3D;Filamento PETG Blanco 1kg;1;70300;70300;ELECTRONICA I+D S.A.S. (Cot
 Impresion 3D;Filamento PETG Gris 1kg;2;70300;140600;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
 Impresion 3D;Filamento TPU 95A Negro 800g;1;90800;90800;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
 Cerebro y control;Arduino UNO Q (RAM 2GB, eMMC 16GB, Cortex-A53 + Cortex-M33);1;189000;189000;ELECTRONICA I+D S.A.S. (Cotizacion S174842, 10% desc.);Cotizado
-Cerebro y control;Pantalla OLED 2.42" SSD1309 Blanco;1;45546;45546;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
+Cerebro y control;"Pantalla OLED 2.42"" SSD1309 Blanco";1;45546;45546;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
 Cerebro y control;Conversor DC/DC reductor 300W 20A (alimentacion principal);1;22185;22185;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
 Cerebro y control;Modulo conversor DC-DC LM2576HV (salida ajustable, 3A);1;11900;11900;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
 Energia;Bateria LiPo 12V 8000-10000 mAh;1;290000;290000;Bigtronica/hobbyst;Pendiente
@@ -51,3 +51,4 @@ Logistica;Envio Mensajero (Medellin);1;13950;13950;ELECTRONICA I+D S.A.S. (Cotiz
 Tornilleria;Perno M5x20 + tuerca nylock (extra);40;400;16000;Ferreteria;WIP / puede cambiar
 Tornilleria;Perno M4x16 (extra);16;300;4800;Ferreteria;WIP / puede cambiar
 Tornilleria;Perno M3x20 + nylock (extra);36;300;10800;Ferreteria;WIP / puede cambiar
+;;;;;;
