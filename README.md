@@ -2,13 +2,6 @@
 
 A low-budget, 6-wheel autonomous rover that drives itself through rough terrain, collects soil and plant samples, and runs onboard biology and geology tests — all built from 3D-printed parts, off-the-shelf motors, and open-source software. Or so I hope.
 
----
-
-![Steering geometry in motion — one wheel-corner assembly sweeping through its steering range](docs/img/ensamble_llanta_steering.gif)
-
-*The steering knuckle (servo + printed bearing + wheel) swinging through its range in Fusion — see [Wheel-corner assembly](#wheel-corner-assembly) below. Full field-test GIF still coming.*
-
----
 
 ## The demo
 
@@ -71,15 +64,21 @@ Each steering wheel (front-left/right, rear-left/right) is a servo, a printed kn
 - **Socket angle comes from the live model** — the socket tilts so the servo's steering axis is exactly vertical despite sitting on an angled rocker/bogie arm: **30°** at the front/rocker corner, **10°** at the rear/bogie corner, both measured from the actual Fusion assembly rather than assumed.
 - **Mirrored for both sides** — all three knuckle variants (`JuntaLlanta`, `JuntaLlantaEstatica`, `JuntaLlantaDireccion`) have mirrored left-side counterparts (`...I` suffix) so the 6-wheel layout is symmetric.
 
+
+![Steering geometry in motion — one wheel-corner assembly sweeping through its steering range](docs/img/ensamble_llanta_steering.gif)
+
+*The steering knuckle (servo + printed bearing + wheel) swinging through its range in Fusion — see [Wheel-corner assembly](#wheel-corner-assembly) below. Full field-test GIF still coming.*
+
+
 ---
 
 ## Bill of Materials
 
-The full, current BOM (every subsystem, quantities, real prices, and purchase status) lives in [`BOM/bom_rover.csv`](BOM/bom_rover.csv) — that CSV is the source of truth, this section is just the highlights.
+The full, current BOM (every subsystem, quantities, real prices, and status) lives in [`BOM/bom_rover.csv`](BOM/bom_rover.csv) — that CSV is the source of truth, this section is just the highlights.
 
-**Comprado** (bought — real order [Pedido S174842](https://www.didacticaselectronicas.com), I+D Didácticas Electrónicas, COP $2,216,852 with IVA): all 6 JGB37 motors + 3 BTS7960 drivers + steering/arm servos + PCA9685, 13 m of 2020 aluminum profile + T-nuts, PETG/TPU filament, the Arduino UNO Q brain, 2× 448 CPR optical encoders, plus assorted cabling and small hardware.
+**Cotizado** (priced out in a real quote — [Cotización S174842](https://www.didacticaselectronicas.com), I+D Didácticas Electrónicas, COP $2,216,852 with IVA — nothing purchased yet): all 6 JGB37 motors + 3 BTS7960 drivers + steering/arm servos + PCA9685, 13 m of 2020 aluminum profile + T-nuts, PETG/TPU filament, the Arduino UNO Q brain, 2× 448 CPR optical encoders, plus assorted cabling and small hardware.
 
-**Pendiente** (still to buy): round aluminum tube + steel axle for the differential, the acrylic/MDF lid, the LiPo battery + charger, and the lab-module hardware (color sensor, pumps, syringe dispenser).
+**Pendiente** (not priced/sourced yet): round aluminum tube + steel axle for the differential, the acrylic/MDF lid, the LiPo battery + charger, and the lab-module hardware (color sensor, pumps, syringe dispenser).
 
 ---
 
