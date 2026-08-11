@@ -2,10 +2,19 @@
 
 A low-budget, 6-wheel autonomous rover that drives itself through rough terrain, collects soil and plant samples, and runs onboard biology and geology tests — all built from 3D-printed parts, off-the-shelf motors, and open-source software. Or so I hope.
 
+## Status
 
-## The demo
+No driving demo yet — here's where the build actually stands:
 
-**[coming soon]**
+| Area | State |
+|---|---|
+| Suspension + wheel-corner CAD | Designed and validated as standalone assemblies (steering geometry, printed bearing, real angles) |
+| Differential (balancín + bieletas) | Geometry defined (325 mm 1:1 ratio); hardware not sourced yet |
+| BOM | Mobility, chassis frame, filament, and the brain are priced in a real quote; chassis panels, battery, and lab hardware still need quotes |
+| Firmware | Not started |
+| Sampling arm / lab / vision | CAD and hardware selection in progress, no integration yet |
+
+See the steering knuckle actually moving in [Wheel-corner assembly](#wheel-corner-assembly) below.
 
 ---
 
@@ -64,11 +73,9 @@ Each steering wheel (front-left/right, rear-left/right) is a servo, a printed kn
 - **Socket angle comes from the live model** — the socket tilts so the servo's steering axis is exactly vertical despite sitting on an angled rocker/bogie arm: **30°** at the front/rocker corner, **10°** at the rear/bogie corner, both measured from the actual Fusion assembly rather than assumed.
 - **Mirrored for both sides** — all three knuckle variants (`JuntaLlanta`, `JuntaLlantaEstatica`, `JuntaLlantaDireccion`) have mirrored left-side counterparts (`...I` suffix) so the 6-wheel layout is symmetric.
 
-
 ![Steering geometry in motion — one wheel-corner assembly sweeping through its steering range](docs/img/ensamble_llanta_steering.gif)
 
-*The steering knuckle (servo + printed bearing + wheel) swinging through its range in Fusion — see [Wheel-corner assembly](#wheel-corner-assembly) below. Full field-test GIF still coming.*
-
+*The steering knuckle (servo + printed bearing + wheel) swinging through its range in Fusion, captured directly from the live model. Full field-test footage still coming.*
 
 ---
 
@@ -88,7 +95,7 @@ Each steering wheel (front-left/right, rear-left/right) is a servo, a printed kn
 
 - **The joints set all the angles**, so the aluminum tubes are cut straight at 90°. No mitering needed — that's the whole point of the printed joints.
 - **All three wheel mounts share the same 90 mm drop** (socket to wheel center). That's what keeps the three wheels level on the ground — don't change it on just one.
-- **The differential bieletas need ball joints on both ends** — a rigid connection binds the linkage. The 1:1 ratio (balancín arm = clamp offset = 180 mm) is what keeps the leveling symmetric.
+- **The differential bieletas need ball joints on both ends** — a rigid connection binds the linkage. The 1:1 ratio (balancín arm = clamp offset = 325 mm, measured off the real `Diferencial` part) is what keeps the leveling symmetric.
 - **Joint walls are 5 mm** — don't go thinner or the M5 bolts pull out of the PETG under load.
 
 Print-ready STL files for every finished functional part live in [`Parts/STL-parts`](Parts/STL-parts), organized by subsystem (`Bogie`, `Direccion`, `Llantas`) rather than by print settings — CAD source stays in Fusion, this folder is just the slicer-ready output.
@@ -97,7 +104,7 @@ Print-ready STL files for every finished functional part live in [`Parts/STL-par
 
 ## Build journal
 
-The full design log — why rocker-bogie, the math behind the geometry, dead ends, and every decision along the way — is in [`Journal/Librito_Rover x_x (CreacionSistemaMecanico) .pptx`](<Journal/Librito_Rover x_x (CreacionSistemaMecanico) .pptx>). It's a running notebook, not a polished report; open it in PowerPoint/Slides to read or add to it.
+The full design log — why rocker-bogie, the math behind the geometry, dead ends, and every decision along the way — is in [`Journal/Librito_Rover x_x (CreacionSistemaMecanico) .pptx`](Journal/Librito_Rover%20x_x%20%28CreacionSistemaMecanico%29%20.pptx). It's a running notebook, not a polished report; open it in PowerPoint/Slides to read or add to it.
 
 ---
 
