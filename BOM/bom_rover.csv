@@ -1,54 +1,25 @@
-﻿Categoria;Parte;Cantidad;PrecioUnitario_COP;Subtotal_COP;Fuente;Estado
-Movilidad;Motorreductor JGB37 12V 100RPM;6;73613;441678;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Movilidad;Driver BTS7960 43A;3;29076;87228;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Movilidad;Servo MG995R 4.8-7.2V 13Kg/cm (direccion, 4 ruedas);4;20700;82800;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Movilidad;Controlador PCA9685 (16 ch PWM, sin ensamblar);1;15126;15126;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Movilidad;Eje metalico [EJE-1005] 100x5 mm;3;2904;8712;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Movilidad;Rodamiento con brida MF105ZZ (ID5/OD10/H4 mm);5;3388;16940;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Movilidad;Encoder optico 448 CPR (eje de 37 mm, para motorreductor);2;32900;65800;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Movilidad;Tubo redondo aluminio D25x2 mm (por m);2;18000;36000;El Palacio del Aluminio;Pendiente
-Movilidad;Tubo redondo aluminio D20x2 mm (por m);1;15000;15000;El Palacio del Aluminio;Pendiente
-Movilidad;Barra de acero D12x700 mm (eje diferencial);1;12000;12000;Deposito de aceros (Medellin);Pendiente
-Movilidad;Pasadores acero D12x40 mm;11;2000;22000;Deposito de aceros (Medellin);Pendiente
-Movilidad;Terminales de rotula M5 (bieletas);4;6000;24000;Tienda RC / hobby;Pendiente
-Movilidad;Rodamiento autolubricante SA4P/K (extremo de varilla, alternativa a terminal de rotula);0;7300;0;ELECTRONICA I+D S.A.S.;Evaluando / no comprado
-Movilidad;Varilla roscada M5 (bieletas) 0.5 m;1;5000;5000;Ferreteria;Pendiente
-Chasis;Perfil aluminio 2020V-N2 (por m, CNC);13;24923;323995;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Chasis;Tornillo en T M5x12 para perfil 2020;20;756;15120;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Chasis;Conectores esquina 2020;30;800;24000;Electronilab;Pendiente
-Chasis;Lamina acrilico/MDF para cubierta;1;55000;55000;Vidrieria / ferreteria (Medellin);Pendiente
-Chasis;Perno M5x20 + tuerca nylock;40;400;16000;Ferreteria;Pendiente
-Chasis;Perno M4x16;16;300;4800;Ferreteria;Pendiente
-Chasis;Perno M3x20 + nylock;36;300;10800;Ferreteria;Pendiente
-Impresion 3D;Filamento PETG Blanco 1kg;1;70300;70300;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Impresion 3D;Filamento PETG Gris 1kg;2;70300;140600;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Impresion 3D;Filamento TPU 95A Negro 800g;1;90800;90800;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Cerebro y control;Arduino UNO Q (RAM 2GB, eMMC 16GB, Cortex-A53 + Cortex-M33);1;189000;189000;ELECTRONICA I+D S.A.S. (Cotizacion S174842, 10% desc.);Cotizado
-Cerebro y control;"Pantalla OLED 2.42"" SSD1309 Blanco";1;45546;45546;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Cerebro y control;Conversor DC/DC reductor 300W 20A (alimentacion principal);1;22185;22185;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Cerebro y control;Modulo conversor DC-DC LM2576HV (salida ajustable, 3A);1;11900;11900;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Energia;Bateria LiPo 12V 8000-10000 mAh;1;290000;290000;Bigtronica/hobbyst;Pendiente
-Energia;Cargador LiPo;1;90000;90000;Bigtronica;Pendiente
-Energia;Interruptor + fusibles;1;25000;25000;Ferreteria / I+D;Pendiente
-Energia;Cable siliconado 10AWG Rojo (bateria);1;18824;18824;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Electronica y cableado;Dispensador de cable siliconado 18AWG (5 colores);1;43697;43697;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Electronica y cableado;Cable Dupont M/M 10cm (paquete x10, colores);3;1700;5100;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Electronica y cableado;Cable Dupont M/H 10cm (paquete x10, colores);3;1700;5100;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Electronica y cableado;Pelacable multifuncional AWG 22-10;1;12600;12600;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Laboratorio;Sensor de color RGB TCS34725;1;25000;25000;I+D Didacticas Electronicas;WIP / puede cambiar
-Laboratorio;Bomba peristaltica;2;40000;80000;Microkits Electronica (Medellin);WIP / puede cambiar
-Laboratorio;Varilla trapezoidal roscada M8 paso 1mm, 1m (husillo dispensador/jeringa);1;39100;39100;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Laboratorio;Dispensador de jeringa / servo lineal;1;30000;30000;Bigtronica;WIP / puede cambiar
-Laboratorio;Reactivos Biuret (CuSO4 + NaOH);1;35000;35000;Distribuidora quimica (Medellin);WIP / puede cambiar
-Laboratorio;Contenedor sellado de muestras;1;10000;10000;Impreso / ferreteria;WIP / puede cambiar
-Geologia;Sensor capacitivo de humedad de suelo;1;12000;12000;I+D Didacticas Electronicas;WIP / puede cambiar
-Brazo de muestreo;Mini servo SG51R Tower Pro 5g (brazo);4;24200;96800;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Brazo de muestreo;Pala/scoop para suelo;1;8000;8000;Impreso PETG;WIP / puede cambiar
-Brazo de muestreo;Estructura del brazo (impreso PETG);1;25000;25000;Impreso PETG;Fijo
-Vision y navegacion;Camara (Pi Camera o USB);1;50000;50000;Compel Electronica (Medellin);WIP / puede cambiar
-Vision y navegacion;Marcadores AR (impresos);1;2000;2000;Impresion papel;WIP / puede cambiar
-Logistica;Envio Mensajero (Medellin);1;13950;13950;ELECTRONICA I+D S.A.S. (Cotizacion S174842);Cotizado
-Tornilleria;Perno M5x20 + tuerca nylock (extra);40;400;16000;Ferreteria;WIP / puede cambiar
-Tornilleria;Perno M4x16 (extra);16;300;4800;Ferreteria;WIP / puede cambiar
-Tornilleria;Perno M3x20 + nylock (extra);36;300;10800;Ferreteria;WIP / puede cambiar
-;;;;;;
+Categoria,Parte,Cantidad,PrecioUnitario_COP,Subtotal_COP,Fuente,Estado,Montaje
+Movilidad,Motorreductor JGB37 12V 100RPM,6,73613,441678,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Junta de rueda (Bogie) - motor de cada una de las 6 ruedas
+Movilidad,Driver BTS7960 43A,3,29076,87228,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis interior - placa de electronica de potencia
+Movilidad,"Servo MG995R 4.8-7.2V 13Kg/cm (direccion, 4 ruedas)",4,20700,82800,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Junta de rueda (Bogie) - direccion de las 4 ruedas de esquina
+Movilidad,"Controlador PCA9685 (16 ch PWM, sin ensamblar)",1,15126,15126,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,"Chasis interior - placa de electronica, junto al Arduino UNO Q"
+Movilidad,Eje metalico [EJE-1005] 100x5 mm,3,2904,8712,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Junta de rueda (Bogie) - eje servo-rodamiento-rueda en JuntaLlantaDireccion/JuntaLlanta
+Movilidad,Rodamiento con brida MF105ZZ (ID5/OD10/H4 mm),5,3388,16940,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Junta de rueda (Bogie) - soporte del eje
+Movilidad,"Encoder optico 448 CPR (eje de 37 mm, para motorreductor)",2,32900,65800,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Junta de rueda (Bogie) - acoplado al eje trasero del motorreductor
+Chasis,"Perfil aluminio 2020V-N2 (por m, CNC)",13,24923,323995,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis - marco estructural
+Chasis,Tornillo en T M5x12 para perfil 2020,20,756,15120,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis - union de perfiles y placas
+Impresion 3D,Filamento PETG Blanco 1kg,1,70300,70300,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Consumible - no se monta
+Impresion 3D,Filamento PETG Gris 1kg,2,70300,140600,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Consumible - no se monta
+Impresion 3D,Filamento TPU 95A Negro 800g,1,90800,90800,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Consumible - no se monta
+Cerebro y control,"Arduino UNO Q (RAM 2GB, eMMC 16GB, Cortex-A53 + Cortex-M33)",1,189000,189000,"ELECTRONICA I+D S.A.S. (Cotizacion S174842, 10% desc.)",Cotizado,Chasis interior - placa de electronica (cerebro)
+Cerebro y control,"Pantalla OLED 2.42"" SSD1309 Blanco",1,45546,45546,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis - panel frontal/superior visible
+Cerebro y control,Conversor DC/DC reductor 300W 20A (alimentacion principal),1,22185,22185,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis interior - compartimento de energia
+Cerebro y control,"Modulo conversor DC-DC LM2576HV (salida ajustable, 3A)",1,11900,11900,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis interior - compartimento de energia
+Energia,Cable siliconado 10AWG Rojo (bateria),1,18824,18824,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis interior - linea principal de bateria
+Electronica y cableado,Dispensador de cable siliconado 18AWG (5 colores),1,43697,43697,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis interior - junto a la placa de electronica
+Electronica y cableado,"Cable Dupont M/M 10cm (paquete x10, colores)",3,1700,5100,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis interior - junto a la placa de electronica
+Electronica y cableado,"Cable Dupont M/H 10cm (paquete x10, colores)",3,1700,5100,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis interior - junto a la placa de electronica
+Electronica y cableado,Pelacable multifuncional AWG 22-10,1,12600,12600,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Chasis interior - junto a la placa de electronica
+Laboratorio,"Varilla trapezoidal roscada M8 paso 1mm, 1m (husillo dispensador/jeringa)",1,39100,39100,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Modulo de laboratorio - husillo del dispensador de jeringa
+Brazo de muestreo,Mini servo SG51R Tower Pro 5g (brazo),4,24200,96800,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,Brazo de muestreo (frontal del chasis)
+Logistica,Envio Mensajero (Medellin),1,13950,13950,ELECTRONICA I+D S.A.S. (Cotizacion S174842),Cotizado,"N/A - logistica, no se monta"

@@ -74,11 +74,11 @@ Each steering wheel (front-left/right, rear-left/right) is a servo, a printed kn
 
 ## Bill of Materials
 
-The full, current BOM (every subsystem, quantities, real prices, and status) lives in [`BOM/bom_rover.csv`](BOM/bom_rover.csv) — that CSV is the source of truth, this section is just the highlights.
+[`BOM/bom_rover.csv`](BOM/bom_rover.csv) lists every part that's actually been priced, with real quantities, real COP prices, and where each one mounts on the rover — comma-delimited, one quote as the single source of truth (no placeholder/estimate rows).
 
-**Cotizado** (priced out in a real quote — [Cotización S174842](https://www.didacticaselectronicas.com), I+D Didácticas Electrónicas, COP $2,216,852 with IVA — nothing purchased yet): all 6 JGB37 motors + 3 BTS7960 drivers + steering/arm servos + PCA9685, 13 m of 2020 aluminum profile + T-nuts, PETG/TPU filament, the Arduino UNO Q brain, 2× 448 CPR optical encoders, plus assorted cabling and small hardware.
+**Cotizado** (priced out in a real quote — Cotización S174842, I+D Didácticas Electrónicas, COP $2,216,852 with IVA, nothing purchased yet): all 6 JGB37 motors + 3 BTS7960 drivers + steering/arm servos + PCA9685, 13 m of 2020 aluminum profile + T-nuts, PETG/TPU filament, the Arduino UNO Q brain, 2× 448 CPR optical encoders, plus assorted cabling and small hardware.
 
-**Pendiente** (not priced/sourced yet): round aluminum tube + steel axle for the differential, the acrylic/MDF lid, the LiPo battery + charger, and the lab-module hardware (color sensor, pumps, syringe dispenser).
+**Still needed but not priced yet:** round aluminum tube + steel axle for the differential, the acrylic/MDF lid, the LiPo battery + charger, and the lab-module hardware (color sensor, pumps, syringe dispenser) — left out of the CSV until there's a real quote for them, rather than carrying rough guesses.
 
 ---
 
